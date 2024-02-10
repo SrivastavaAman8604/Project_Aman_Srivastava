@@ -1,1 +1,154 @@
+/* Basic reset and styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  /* Header and Navigation styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+ 
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+ 
+  nav ul li {
+    margin-left: 15px;
+  }
+ 
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: small;
+  }
+ 
+  nav ul li a:hover {
+    background-color: #555;
+  }
+ 
+  /* Logo and Items on the Left */
+  .logo img {
+    max-height: 40px; /* Set maximum height for the logo */
+  }
+ 
+  /* Right-side Elements */
+  .right {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+ 
+  .search-bar input[type="text"],
+  .search-bar button {
+    padding: 8px;
+    background-color: #060606;
+    border: none;
+    color: white;
+  }
 
+  .search-bar button {
+    cursor: pointer;
+  }
+ 
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+ 
+  .icons img {
+    height: 40px; /* Set the height for the bell icon */
+    margin: 0 10px;
+  }
+ 
+  /* Dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+  }
+ 
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  .dropbtn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+ 
+  .left {
+    display: flex;
+    align-items: center;
+  }
+
+  .card {
+    margin: 20px;
+    /* background-color: #222; */
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-left: 1em;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card h3 {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .card p {
+    color: #aaa;
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  .mar{
+    margin: 2em;
+  }
